@@ -11,6 +11,10 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
+  let arreglo = array.filter( x => {
+    return x.toString().match(/[0-9]/);
+  })
+  return arreglo
 
 }
 

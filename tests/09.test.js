@@ -40,6 +40,20 @@ var personas =[
       }
     ],
   },
+  {
+    nombre: 'Martin',
+    edad: 35,
+    hobbies: ['Cancha', 'emprender'],
+    amigos: [
+      {
+        nombre: 'Toni',
+      }, {
+        nombre: 'Leo',
+      }, {
+        nombre: 'Manu',
+      }
+    ],
+  },
 ];
 
 
